@@ -1,0 +1,20 @@
+{
+  "name": "hyperswarm-beam",
+  "version": "0.1.0",
+  "description": "A peer-to-peer file & note beaming tool using Hyperswarm.",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hyperswarm": "^3.0.0",
+    "random-access-memory": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
